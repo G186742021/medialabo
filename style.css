@@ -1,3 +1,25 @@
-p {
-    color: green;
+h1{
+    font-size: 3em;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(252, 185, 98);
+    border-bottom: 7px solid rgb(204, 199, 199) 
 }
+h2{
+    
+    width: 400px;
+    border-bottom: 5px solid rgba(235, 172, 54, 0.685);
+}
+body{
+    background-color: rgba(216, 212, 212, 0.397);
+}
+a:link {
+    color: rgba(93, 186, 240, 0.692);
+  }
+  
+  a:visited {
+    color: rgb(245, 85, 46);
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
