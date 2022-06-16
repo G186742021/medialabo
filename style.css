@@ -1,9 +1,14 @@
 h1{
     font-size: 3em;
 font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(252, 185, 98);
     border-bottom: 7px solid rgb(204, 199, 199) 
 }
+h1 {
+  background-color: rgba(252,185,98);
+  height: 1em;
+  padding: 1em;
+}
+
 h2{
     
     width: 400px;
