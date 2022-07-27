@@ -1,7 +1,7 @@
 let kotae =Math.floor(Math.random()*10)+1;
 console.log('答え:'+kotae);
 
-let result = document.querySelector('#result');
+let result = document.querySelector('p#result');
 result.addEventListener('click',hantei)
 let kaisu=0;
 
@@ -20,7 +20,8 @@ function hantei (){
     }else{
         if(kaisu>2){
 console.log('間違え、答えは'+kotae+'でした。');
-        }
+        }else{
         console.log('間違い');
     } 
+    }
 }
