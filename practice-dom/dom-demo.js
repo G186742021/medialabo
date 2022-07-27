@@ -38,5 +38,6 @@ for(let h2 of h2s){
       '南極海'
   ]
   for(let o of oceans){
-      
+      p=document.querySelector('p');
+      o.intsertAdjacentElement('afterend',p);
   }
