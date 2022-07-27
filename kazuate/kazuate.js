@@ -16,11 +16,11 @@ function hantei (){
     let kazuate=l.value;
    
     if(kazuate==kotae){
-        
+        console.log('正解です。おめでとう！');
     }else{
-        console.log('')
-    }
-
-
-    
+        if(kaisu>2){
+console.log('間違え、答えは'+kotae+'でした。');
+        }
+        console.log('間違い');
+    } 
 }
