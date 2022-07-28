@@ -19,16 +19,17 @@ function hantei (){
      s.textContent=kaisu;
     let a=document.querySelector('div#seisu');
      a.textContent=yoso;
-
-    if(kotae==yoso){
+    if(kaisu<3){
+     if(kotae==yoso){
         result.texstContent="正解です。おめでとう！";
-    }else if(kaisu==3){
-        result.textContent="ざんねん答えは"+kotae+"でした。";
-    }else if(kaisu>3){
-        result.textContent="答えは"+kotae+"でした。すでにゲームは終了しています。";
     }else if(kotae>yoso){
-        result.textContent="答えはもっと小さいです。";
-    }else if(kotae<yoso){
         result.textContent="答えはもっと大きいです。";
+    }else if(kotae<yoso){
+        result.textContent="答えはもっと小さいです。";
     }
+    }else if(kaisu==3){
+    result.textContent="ざんねん答えは"+kotae+"でした。";
+    }else {
+    result.textContent="答えは"+kotae+"でした。すでにゲームは終了しています。";
+}
 }
