@@ -13,9 +13,9 @@ function hantei (){
     let yoso=Number(d);
 
     let result =document.querySelector('#result');
-    let p=document.createElement('p');
+    let p =document.createElement('p');
      kaisu++;
-    let s =docement.querySelector('span#kaisu');
+    let s =document.querySelector('span#kaisu');
      s.textContent=kaisu;
     let a=document.querySelector('div#seisu');
      a.textContent=yoso;
