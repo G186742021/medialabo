@@ -24,12 +24,16 @@ function hantei (){
         result.texstContent="正解です。おめでとう！";
     }else if(kotae>yoso){
         result.textContent="答えはもっと大きいです。";
-    }else if(kotae<yoso){
+    }else {
         result.textContent="答えはもっと小さいです。";
     }
     }else if(kaisu==3){
-    result.textContent="ざんねん答えは"+kotae+"でした。";
-    }else {
-    result.textContent="答えは"+kotae+"でした。すでにゲームは終了しています。";
+        if(kotae==yoso){
+            result.textContent="正解です。おめでとう！";
+        }else{
+            result.textContent="ざんねん答えは"+kotae+"でした。";
+        }
+    }else{
+        result.textContent="答えは"+kotae+"でした。すでにゲームは終了しています。";
 }
 }
