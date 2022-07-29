@@ -19,7 +19,7 @@
       '南極海'
   ]
   ul = document.createElement('ul');
-  h2sevenOcean.insertAdjacentElement('afterend', ul);
+  h2sevenOcean.insertAdjacentElement('afterend',ul);
   for(let o of oceans){       
       li=document.createElement('li');
       li.textContent=o;
