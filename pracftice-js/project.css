@@ -1,6 +1,21 @@
-body {
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image:url("https://magazine-cf.techacademy.jp/wp-content/uploads/2021/03/20220916/laptop_small.jpg");
-}
+section {
+   position: absolute;
+   display: none;
+ }
+ 
+ section {
+   margin-top: 3rem;
+   border: 1px solid #ccc;
+   padding: 3rem;
+   width: 100%;
+   box-sizing: border-box;
+ }
+ #a01 {
+   background: #D8DBE2;
+ }
+ #a02 {
+   background: #A9BCD0;
+ }
+ #a03 {
+   background: #58A4B0;
+ }
