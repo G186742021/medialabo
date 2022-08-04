@@ -1,21 +1,10 @@
-section {
-   position: absolute;
-   display: none;
- }
- 
- section {
-   margin-top: 3rem;
-   border: 1px solid #ccc;
-   padding: 3rem;
-   width: 100%;
-   box-sizing: border-box;
- }
- #a01 {
-   background: #D8DBE2;
- }
- #a02 {
-   background: #A9BCD0;
- }
- #a03 {
-   background: #58A4B0;
- }
+select.target{
+  border: 5px solid rgb(222, 165, 33);
+  padding: 30px;
+  margin: 50px;
+  width: 1000px;
+  height: 350;
+}
+.relative{
+  left:200px;
+}
