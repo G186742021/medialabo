@@ -1,3 +1,14 @@
-body{
-  background-color: rgba(216, 212, 212, 0.397);
-}
+html {
+  height: 8em;
+  position: relative }
+html {
+  margin: 0;
+  background-image: url(https://beiz.jp/images_P/sky/sky_00002.jpg);
+  position: absolute;
+  top: 40%;
+  font-weight: bold;
+  left: 50%;
+  font-size: 40px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
+  

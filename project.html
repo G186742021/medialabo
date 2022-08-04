@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html>
+  <head>
     <meta charset="utf-8">
-    <title>Projects</title>
+    <title>世界の天気</title>
     <link rel="stylesheet" href="project.css">
-    <script src="project.js" defer></script>
-    <select>
-      <option value="select">選択してください</option>
-      <option value="a01">要素1</option>
-      <option value="a02">要素2</option>
-      <option value="a03">要素3</option>
+    <script src="weather.js" defer></script>
+    </head>
+<body>
+  <h3>
+    世界の天気
+  </h3>
+  <select id="choice">
+      <option value="天候:晴れ　最高気温:37 最低気温:28">カイロ</option>
+      <option value="天候:雨　　最高気温:25 最低気温:20">モスクワ</option>
+      <option value="天候:晴れ　最高気温:30 最低気温:22">ヨハネスブルク</option>
+      <option value="天候:曇り　最高気温:27 最低気温:20">北京</option>
+      <option value="天候:晴れ　最高気温:35 最低気温:29">東京</option>
+      <option value="天候:曇り　最高気温:22 最低気温:15">シンガポール</option>
     </select>
+    <div id="box"></div>
+</body>
     
-    <section id="a01">
-    要素１
-    </section>
-    
-    <section id="a02">
-    要素2
-    </section>
-    
-    <section id="a03">
-    要素3
-    </section>
-  
 </html>
